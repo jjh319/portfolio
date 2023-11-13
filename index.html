@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Jang_JiHun</title>
+
+    <!-- jQuery load -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.0.js"
+      integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc="
+      crossorigin="anonymous"
+    ></script>
+    <!-- jQuery load end -->
+    <!-- vue load -->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <!-- vue load end -->
+    <!-- bootstrap CSS load -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <!-- bootstrap CSS load end -->
+
+    <!-- Custom CSS load -->
+    <link rel="stylesheet" href="assets/index.css" />
+    <!-- Custom CSS load end -->
+    <!-- fullpage load -->
+    <link rel="stylesheet" href="assets/fullpage/fullpage.css" />
+    <script type="text/javascript" src="assets/fullpage/fullpage.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#fullpage").fullpage({
+          licenseKey: "OPEN-SOURCE-GPLV3-LICENSE",
+          autoScrolling: true,
+          scrollHorizontally: true,
+        });
+      });
+    </script>
+    <!-- fullpage load end -->
+    <!-- Font Awesome load -->
+    <script
+      src="https://kit.fontawesome.com/56dcc4fdd8.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Font Awesome load end -->
+  </head>
+  <body>
+    <div id="fullpage">
+      <div id="mp" class="section">
+        <div id="name">하루 한 걸음이 천일이면 천걸음<br />꾸준히 나아가는 개발자 장지훈입니다</div>
+      </div>
+      <div id="introduce" class="section">
+        <div id="my-self" class="row">
+          <div style="text-align: center;" class="col-sm-6">
+            <div id="my_image">
+              <img src="assets/img/face.jpg" />
+            </div>
+            <a class="i_a" href="https://github.com/jjh319" target="_blank"
+              ><i class="icon fab fa-github"></i
+            ></a>
+            <a class="i_a" href="https://www.instagram.com/j1_huni/"
+              ><i class="icon fab fa-instagram"></i
+            ></a>
+          </div>
+          <div id="ms_contents" class="col-sm-6">
+            <p id="profile">#Profile</p>
+            <p class="impactp">장지훈 / Ji-hun Jang</p>
+            <p><strong>birth :</strong> 1996.03.19 / 경기 안산시</p>
+            <p><strong>Contact :</strong> 010-2210-1462 / jangjihun69@gmail.com</p>
+            <p>
+              <strong>Graduation :</strong> 2023.05 ~ 2023.10: 그린컴퓨터아카데미
+              spring웹서비스 과정 이수
+            </p>
+            <hr />
+            <p class="impactp">Who am I?</p>
+            <p><strong style="color: red;">꾸준함</strong>빼면 시체!</p>
+            <p>한 계단 한 계단 전진하는 개발자!</p>
+          </div>
+          <div id="tech">
+            <img src="assets/img/java.png" />
+            <img src="assets/img/spring.png" />
+            <img src="assets/img/boot.png" />
+            <img src="assets/img/oracle.png" />
+            <img src="assets/img/js.png" />
+            
+          </div>
+        </div>
+      </div>
+      <div id="curriculum" class="section" style="background-color: #6a89cc">
+        <div class="section_top">#Curriculum</div>
+        <div class="slide">
+          <div class="portfolio">
+            <div class="row project_contents">
+              <div class="col-sm-4">
+                <img src="assets/img/java.png" style="margin: auto;width: 90%;">
+              </div>
+              <div class="col-sm-8"style="padding-top: 2%;">
+                <p class="ptitle">자바의 특징</p>
+                <span>
+                  -자바는 객체 지향 프로그래밍 언어로, 데이터와 함수를 객체 단위로 캡슐화하여 프로그래밍 가능<br/>
+                  -자바는 배우기 쉬우며, 그 문법은 간단하고 이해하기 쉬워 프로그래밍 초보자도 쉽게 접근 가능<br/>
+                  -자바는 멀티 스레딩을 지원하여, 동시에 여러 작업을 처리할 수 있는 애플리케이션 구현 가능
+                </span>
+                <br/><br/>
+                <p class="ptitle">실습내용</p>
+                <p>
+                  java언어를 기반으로 lombok 어노테션을 이용해 코드를 간결화 시키고<br/>
+                  데이터와 함수를 객체 단위로 캡슐화하여 프로그래밍<br />
+                </p>
+              </div>
+
+            </div>
+            <div class="row project_contents">
+              <div class="col-sm-4" style="text-align: center;">
+                <a data-toggle="modal" data-target="#Modal7"><img src="assets/img/do7.PNG" style="margin: auto;width: 65%;"></a>
+                <a data-toggle="modal" data-target="#Modal8"><img src="assets/img/do8.PNG" style="margin: auto;width: 65%;"></a>
+              </div>
+              <div class="col-sm-4" style="align-self: center;">
+                <a data-toggle="modal" data-target="#Modal11"><img src="assets/img/do11.PNG" style="margin: auto;width: 70%;"></a>
+              </div>
+              <div class="col-sm-4" style="text-align: center;">
+                <a data-toggle="modal" data-target="#Modal9"><img src="assets/img/do9.PNG" style="margin: auto;width: 50%;"></a>
+                <a data-toggle="modal" data-target="#Modal10"><img src="assets/img/do10.PNG" style="margin: auto;width: 50%;"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="portfolio">
+            <div class="row project_contents">
+              <div class="col-sm-4" style="align-self: center;">
+                <img src="assets/img/spring.png" style="margin: auto;width: 90%;">
+              </div>
+              <div class="col-sm-8" style="padding-top: 2%;">
+                <p class="ptitle">spring MVC패턴의 특징</p>
+                <span>
+                  -모델 객체, 컨트롤러, 커맨드 객체, 뷰 리졸버, DispatcherServlet, 밸리데이터 등 각각의 역할을 전문화된 객체로 분리<br/>
+                  -Spring MVC는 빠르고 병렬 개발을 용이하게 합니다<br/>
+                  -프레임워크와 애플리케이션 클래스 모두를 위한 강력한 설정을 제공하여, 웹 컨트롤러에서 비즈니스 객체와 밸리데이터로 쉽게 참조할 수 있게 합니다</span
+                >
+                <br/><br/>
+                <p class="ptitle">실습내용</p>
+                <p>
+                  MVC패턴을 이용한 model,view,controll을 설계 및 서비스 구현
+                </p>
+              </div>
+            </div>
+            <div class="row project_contents">
+              <div class="col-sm-4">
+                <a data-toggle="modal" data-target="#Modal12"><img src="assets/img/do12.JPG" style="margin: auto;width: 80%;"></a>
+              </div>
+              <div class="col-sm-4">
+                <a data-toggle="modal" data-target="#Modal13"><img src="assets/img/do13.JPG" style="margin: auto;width: 100%;"></a>
+              </div>
+              <div class="col-sm-4">
+                <a data-toggle="modal" data-target="#Modal14"><img src="assets/img/do14.JPG" style="margin: auto;width: 100%;"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+      </div>
+
+
+      <div id="portfolio" class="section">
+        <span id="project_bottom">프로젝트 제목 클릭 시 코드로 이동</span>
+        <div class="slide">
+          <div class="portfolio">
+            <a target="_blank" href="https://github.com/jjh319/bobzoProject"
+              ><p class="project_name">
+                #웹사이트 기능 구현 프로젝트
+              </p></a
+            >
+            <object
+              title="YouTube video player"
+              class="youtube-player"
+              type="text/html"
+              width="100%"
+              height="315"
+              data="https://www.youtube.com/embed/f3212TMsTyk"
+              allowFullScreen
+            ></object>
+            <div class="row project_contents">
+              <div class="col-sm-6">
+                <p class="ptitle">프로젝트 설명</p>
+                <span>
+                  홈페이지의 기본 기능인 회원가입(중복체크),로그인/로그아웃,게시글 등록/수정,댓글 등록/수정/삭제<br>
+                  마이페이지 회원정보 수정, 신고글 작성을 구현했습니다.
+                  
+                </span>
+
+              </div>
+              <div class="col-sm-6">
+                <p class="ptitle">적용기술</p>
+                <p>
+                  - 프레임워크 : Spring Boot Framework<br />
+                  - 데이터베이스 : Oracle <br />
+                  - 기타 :  java,spring-data-jpa,thymeleaf, javascript
+                </p>
+              </div>
+              
+              
+            </div>
+          </div>
+        </div>
+        
+       
+      </div>
+    </div>
+  </body>
+  <!-- bootstrap JS load -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"
+  ></script>
+  <!-- bootstrap JS load end -->
+</html>
